@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh);
+  min-height: 565px;
+  color: white;
+}
+
+.c1{
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  order: 2;
+  height: calc(100vh); 
+  
+}
+
+.s1{
+  order: 1;
+  color: rgb(255, 155, 5);
+  font-size: 30pt;
+  background: rgb(80,7,62);
+  background: radial-gradient(circle, rgba(80,7,62,0.7458333675266982) 0%, rgba(51,30,105,0.9447129193474265) 100%); 
+  border-top: 3px groove rgb(16, 184, 226);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  font-family: 'Courier New', monospace;
+  transition: 0.2s;
+  
+}
+
+.s1:hover{
+  box-shadow: 5px 5px 15px 5px #000000;
+  text-shadow: 0 0 6px #00eeff;
+}
+
+.s2{
+  order: 2;
+  margin: 100px;
+  margin-top: 200px;
+}
+
+.c2 {
+  display: flex;
+  flex-wrap: wrap;
+  order:1;
+  border-left: 5px solid rgb(16, 184, 226);
+  box-shadow: 5px 5px 15px 5px #000000;
+  transition: 0.2s;
+  background: rgb(7,11,80);
+  background: radial-gradient(circle, rgba(7,11,80,0.7458333675266982) 0%, rgba(47,32,85,0.9447129193474265) 100%);
+}
+
+.c2:hover{
+  border-left: 5px solid rgb(7, 199, 0);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-shadow: 0 0 2px #b9b9b9;
+}
+
