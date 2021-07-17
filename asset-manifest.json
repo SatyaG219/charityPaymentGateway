@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/charityPaymentGateway/static/css/main.1e1d74b1.chunk.css",
-    "main.js": "/charityPaymentGateway/static/js/main.c476fca3.chunk.js",
-    "main.js.map": "/charityPaymentGateway/static/js/main.c476fca3.chunk.js.map",
-    "runtime-main.js": "/charityPaymentGateway/static/js/runtime-main.2dd3acf0.js",
-    "runtime-main.js.map": "/charityPaymentGateway/static/js/runtime-main.2dd3acf0.js.map",
-    "static/js/2.9d5ce7e2.chunk.js": "/charityPaymentGateway/static/js/2.9d5ce7e2.chunk.js",
-    "static/js/2.9d5ce7e2.chunk.js.map": "/charityPaymentGateway/static/js/2.9d5ce7e2.chunk.js.map",
-    "static/js/3.c058ec19.chunk.js": "/charityPaymentGateway/static/js/3.c058ec19.chunk.js",
-    "static/js/3.c058ec19.chunk.js.map": "/charityPaymentGateway/static/js/3.c058ec19.chunk.js.map",
+    "main.css": "/charityPaymentGateway/static/css/main.434081ca.chunk.css",
+    "main.js": "/charityPaymentGateway/static/js/main.11da514a.chunk.js",
+    "main.js.map": "/charityPaymentGateway/static/js/main.11da514a.chunk.js.map",
+    "runtime-main.js": "/charityPaymentGateway/static/js/runtime-main.b80498dc.js",
+    "runtime-main.js.map": "/charityPaymentGateway/static/js/runtime-main.b80498dc.js.map",
+    "static/js/2.3b2b5fac.chunk.js": "/charityPaymentGateway/static/js/2.3b2b5fac.chunk.js",
+    "static/js/2.3b2b5fac.chunk.js.map": "/charityPaymentGateway/static/js/2.3b2b5fac.chunk.js.map",
+    "static/js/3.3763836a.chunk.js": "/charityPaymentGateway/static/js/3.3763836a.chunk.js",
+    "static/js/3.3763836a.chunk.js.map": "/charityPaymentGateway/static/js/3.3763836a.chunk.js.map",
     "index.html": "/charityPaymentGateway/index.html",
-    "static/css/main.1e1d74b1.chunk.css.map": "/charityPaymentGateway/static/css/main.1e1d74b1.chunk.css.map",
-    "static/js/2.9d5ce7e2.chunk.js.LICENSE.txt": "/charityPaymentGateway/static/js/2.9d5ce7e2.chunk.js.LICENSE.txt"
+    "static/css/main.434081ca.chunk.css.map": "/charityPaymentGateway/static/css/main.434081ca.chunk.css.map",
+    "static/js/2.3b2b5fac.chunk.js.LICENSE.txt": "/charityPaymentGateway/static/js/2.3b2b5fac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2dd3acf0.js",
-    "static/js/2.9d5ce7e2.chunk.js",
-    "static/css/main.1e1d74b1.chunk.css",
-    "static/js/main.c476fca3.chunk.js"
+    "static/js/runtime-main.b80498dc.js",
+    "static/js/2.3b2b5fac.chunk.js",
+    "static/css/main.434081ca.chunk.css",
+    "static/js/main.11da514a.chunk.js"
   ]
 }
