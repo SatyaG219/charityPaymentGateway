@@ -1,10 +1,32 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Donate.css';
 
+
+
 const Donate = (props) => {
+
+    const [category, setCategory] = useState('');
+
+    const [am, setAm] = useState(1000);
+
+     const handleCategoryChange = (category) => {
+     setCategory(category);
+     console.log(category);
+         if(category === 'Rs.100') {
+             setAm(10000);
+         }
+         if(category === 'Rs.250') {
+            setAm(25000);
+        }
+        if(category === 'Rs.500') {
+            setAm(50000);
+        }
+
+     }
+
     const options = {
         key: 'rzp_test_OIORIzOpJeXlPq',
-        amount: '100', 
+        amount: am, 
         name: 'Donation Drive',
         description: 'Please help others cherish life',
         image: 'https://cdn.razorpay.com/logos/7K3b6d18wHwKzL_medium.png',
@@ -21,7 +43,7 @@ const Donate = (props) => {
         },
         theme: {
             color: 'purple',
-            hide_topbar: false
+            hide_topbar: true
         }
     };
 
@@ -37,11 +59,23 @@ const Donate = (props) => {
     }, []);
 
     return (
-        <>
-            <button onClick={openWindow}>
+        <div className='donateC'>
+            <div className='d1'>
+                    <h2>Choose Amount:</h2> 
+                <select name="category" id="menu" value={category} onChange={event => handleCategoryChange(event.target.value)}>
+                     <option id="0" >Rs.100</option>
+                     <option id="1" >Rs.250</option>
+                     <option id="2" >Rs.500</option>
+                 </select>
+            </div>
+            
+            <div className='d2'>
+                <button onClick={openWindow}>
                 <span>{props.msg}</span>
-            </button>
-        </>
+                </button>
+            </div>
+            
+        </div>
     );
 };
 
