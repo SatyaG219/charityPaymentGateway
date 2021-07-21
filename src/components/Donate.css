@@ -1,3 +1,42 @@
+.donateC{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.d1{
+  order: 1;
+  
+}
+
+.d1 h2{
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  
+}
+.d2{
+  margin-top: 20px;
+  order: 2;
+  align-items: stretch;
+} 
+
+#menu{
+  width: 100px;
+  height: 30px;
+  background-color: bisque;
+  color: rgb(0, 0, 0);
+  border-radius: 2mm;
+  font-weight: bold;
+  font-size: 14pt;
+  transition: 0.2s;
+}
+
+#menu:hover{
+  border: 5px solid aliceblue;
+}
+
 button{
   border: none;
   display: block;
@@ -7,9 +46,9 @@ button{
   outline: none;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: rgb(0, 255, 191);
   font-weight: 700;
-  font-size: 15px;
+  font-size: 19px;
   background-color: #222;
   padding: 17px 60px;
   margin: 0 auto;
@@ -35,9 +74,11 @@ button:after {
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-85%) translateY(-25%) rotate(45deg);
   transform: translateX(-85%) translateY(-25%) rotate(45deg); 
+  
 }
 
 button:hover:after {
   -webkit-transform: translateX(-15%) translateY(-25%) rotate(45deg);
   transform: translateX(-15%) translateY(-25%) rotate(45deg);
+  
 }
